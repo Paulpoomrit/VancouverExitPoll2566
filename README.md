@@ -10,7 +10,7 @@ Exit Poll วันที่ 29-30 เมษายน 2566
 
 ![Participant count](images/counts.png)
 
-จำนวนคนตอบโพลล์ เป็น 97.5% ของผู้ใช้สิทธิ
+จำนวนคนตอบโพลล์ประมาณ 97.5% ของผู้ใช้สิทธิ
 
 ## วิธีการเก็บข้อมูล
 
@@ -60,38 +60,43 @@ Exit Poll วันที่ 29-30 เมษายน 2566
 ```
 Pheu Thai (Paethontarn) 56
 Move Forward (Pita) 405
-Tha Srang Thai (Sudarat) 2
+Thai Srang Thai (Sudarat) 2
 Thai Liberal (Sereepisuth) 6
 Commoner 6
 Democrat (Jurin) 13
 Bhumjaithai (Anutin) 2
 UTN (Prayut) 40
-Paland Pracharat (Pravit) 0
+Palang Pracharat (Pravit) 0
 Chart Pattana Kla (Korn) 6
 Others 7
 ```
 
-เมื่อได้แก้ไขข้อมูลตามข้อสังเกต ประมวลด้วย `counter-touch-up.py` ออกมาเป็นดังต่อไปนี้
+เมื่อได้แก้ไขข้อมูลตามข้อสังเกต 
+
+- เอาข้อมูลของเช้าวันอาทิตย์ 11:14-11:16 ออก
+- ลบคะแนนของพรรคอื่นๆออก 2 คะแนน
+
+ประมวลด้วย `counter-touch-up.py` ออกมาเป็นดังต่อไปนี้
 
 ```
 Pheu Thai (Paethontarn) 56
 Move Forward (Pita) 401
-Tha Srang Thai (Sudarat) 0
+Thai Srang Thai (Sudarat) 0
 Thai Liberal (Sereepisuth) 2
 Commoner 2
 Democrat (Jurin) 13
 Bhumjaithai (Anutin) 1
 UTN (Prayut) 39
-Paland Pracharat (Pravit) 0
+Palang Pracharat (Pravit) 0
 Chart Pattana Kla (Korn) 1
 Others 5
 ```
 
 ![Participant count](images/counts.png)
 
-จำเป็นต้องกราฟภาษาอังกฤษเพราะ marplotlib ใช้ภาษาไทยไม่ได้
+จำเป็นต้องกราฟภาษาอังกฤษเพราะ matplotlib ใช้ภาษาไทยไม่ได้
 
-[ทางสถานทูตได้ประกาศว่า มีผู้มาลงเสียง 533 ราย](https://www.facebook.com/photo?fbid=623220923184336&set=a.467678648738565)  หมายความว่าผู้ใช้เสียงประมาณ 97.5% ได้มาตอบโพลล์ หมายความว่าเพื่อนผมหล่อพอสมควร 555
+[ทางสถานทูตได้ประกาศว่า มีผู้มาลงเสียง 533 ราย](https://www.facebook.com/photo?fbid=623220923184336&set=a.467678648738565)  หมายความว่าผู้ใช้เสียงที่ถูกนับโดยสำเร็จประมาณ 97.5% ได้มาตอบโพลล์ หมายความว่าเพื่อนผมหล่อพอสมควร 555
 
 ## หมายเหตุ
 
@@ -101,10 +106,11 @@ Others 5
 
 ทีมงาน
 
-- Pattanan Sirijaratwong (fb.com/mobalaska)
-- Kawin Glomjai (github.com/gkawin)
-- Chumpol Muncharoenporn
-- Poomrit Ummalukacholk (github.com/paulpoomrit)
-- Ratthamnoon Prakitpong (github.com/rprakitpong)
+- Pattanan Sirijaratwong [fb.com/mobalaska](fb.com/mobalaska)
+- Kawin Glomjai [github.com/gkawin](github.com/gkawin)
+- Chumpol Muncharoenporn [github.com/OctoPol7](github.com/OctoPol7)
+- Poomrit Ummalukacholk [github.com/Paulpoomrit](github.com/Paulpoomrit)
+- Ratthamnoon Prakitpong [github.com/rprakitpong](github.com/rprakitpong)
 
 และเพื่อนๆคนอื่นๆที่มาช่วยนั่งกวักลูกค้าตามความสะดวก
+

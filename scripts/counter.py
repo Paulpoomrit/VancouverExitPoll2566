@@ -14,13 +14,13 @@ for filename in files:
 label_map = {
     'paethongtarn': 'Pheu Thai (Paethontarn)', 
     'pita': 'Move Forward (Pita)', 
-    'sudarat': 'Tha Srang Thai (Sudarat)', 
+    'sudarat': 'Thai Srang Thai (Sudarat)', 
     'sereepisuth': 'Thai Liberal (Sereepisuth)', 
     'commoner': 'Commoner', 
     'jurin': 'Democrat (Jurin)', 
     'anutin': 'Bhumjaithai (Anutin)', 
     'prayun': 'UTN (Prayut)', 
-    'pravit': 'Paland Pracharat (Pravit)', 
+    'pravit': 'Palang Pracharat (Pravit)', 
     'korn': 'Chart Pattana Kla (Korn)', 
     'others': 'Others'}
 

@@ -41,13 +41,13 @@ color_map = {'paethongtarn': 'tab:red', 'pita': 'tab:orange', 'sudarat': 'tab:pu
 label_map = {
     'paethongtarn': 'Pheu Thai (Paethontarn)', 
     'pita': 'Move Forward (Pita)', 
-    'sudarat': 'Tha Srang Thai (Sudarat)', 
+    'sudarat': 'Thai Srang Thai (Sudarat)', 
     'sereepisuth': 'Thai Liberal (Sereepisuth)', 
     'commoner': 'Commoner', 
     'jurin': 'Democrat (Jurin)', 
     'anutin': 'Bhumjaithai (Anutin)', 
     'prayun': 'UTN (Prayut)', 
-    'pravit': 'Paland Pracharat (Pravit)', 
+    'pravit': 'Palang Pracharat (Pravit)', 
     'korn': 'Chart Pattana Kla (Korn)', 
     'others': 'Others'}
 
@@ -76,4 +76,4 @@ for word, count in word_counts.items():
 plt.title('Vancouver exit poll of Thai general election 2566/2023\nTotal poll participants: ' + str(sum))
 
 # Save the plot as a PNG file
-plt.savefig('word_counts.png', dpi=300, bbox_inches='tight')
+plt.savefig('counts.png', dpi=300, bbox_inches='tight')
