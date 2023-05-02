@@ -106,11 +106,11 @@ Others 5
 
 ทีมงาน
 
-- Pattanan Sirijaratwong [fb.com/mobalaska](fb.com/mobalaska)
-- Kawin Glomjai [github.com/gkawin](github.com/gkawin)
-- Chumpol Muncharoenporn [github.com/OctoPol7](github.com/OctoPol7)
-- Poomrit Ummalukacholk [github.com/Paulpoomrit](github.com/Paulpoomrit)
-- Ratthamnoon Prakitpong [github.com/rprakitpong](github.com/rprakitpong)
+- Pattanan Sirijaratwong [fb.com/mobalaska](https://fb.com/mobalaska)
+- Kawin Glomjai [github.com/gkawin](https://github.com/gkawin)
+- Chumpol Muncharoenporn [github.com/OctoPol7](https://github.com/OctoPol7)
+- Poomrit Ummalukacholk [github.com/Paulpoomrit](https://github.com/Paulpoomrit)
+- Ratthamnoon Prakitpong [github.com/rprakitpong](https://github.com/rprakitpong)
 
 และเพื่อนๆคนอื่นๆที่มาช่วยนั่งกวักลูกค้าตามความสะดวก
 
